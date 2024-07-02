@@ -18,3 +18,10 @@ Open Test Application
     click element    //androidx.cardview.widget.CardView[@content-desc="In-clinic Consultation"]/android.view.ViewGroup/android.widget.TextView
     click element    com.practo.fabric:id/search_bar
     input text    com.practo.fabric:id/search_bar   cough
+    click element     //android.widget.Button[@resource-id="com.practo.fabric:id/suggestion_name" and @text="Cough Treatment"]
+    click element    com.practo.fabric:id/text_view_doctor_name
+    click element    com.practo.fabric:id/button_right_cta_with_call_cta
+    click element     //android.widget.Button[@resource-id="com.practo.fabric:id/slot_info" and @text="07:00 PM"]
+
+
+
